@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:400,600&display=swap');
 :root {
   --border-color: #1b1bac;
+  --fill-color: #68b7f7;
 }
 
 * {
@@ -8,7 +9,7 @@
 }
 
 body {
-  background-color: #b3f1f6;
+  background-color: #0965f0;
   font-family: 'Montserrat', 'san-serif';
   display: flex;
   flex-direction: column;
@@ -50,6 +51,11 @@ h3 {
   text-align: center;
   margin: 5px;
   transition: 0.3s ease;
+}
+
+.cup.cup-small.full {
+  background-color: var(--fill-color);
+  color: #fff;
 }
 
 .cups {
